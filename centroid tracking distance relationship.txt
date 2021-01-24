@@ -1,0 +1,47 @@
+#import distance  and numpy
+from scipy.spatial import distance as dist
+ import numpy as np
+
+#set a seed for reproducibility and generate objectCentroids and inputCentroids
+ np.random.seed(42)
+ objectCentroids = np.random.uniform(size=(2, 2))
+ centroids = np.random.uniform(size=(3, 2))
+
+#compute the Euclidean distance
+ D = dist.cdist(objectCentroids, centroids)
+
+array([[0.82421549, 0.32755369, 0.33198071],
+       [0.72642889, 0.72506609, 0.17058938]])
+
+#minimum value for each row
+D.min(axis=1)
+
+array([0.32755369, 0.17058938])
+ rows = D.min(axis=1).argsort()
+
+array([1, 0])
+
+#examine the values in the columns 
+ D.argmin(axis=1)
+array([1, 2])
+
+ cols = D.argmin(axis=1)[rows]
+
+array([2, 1])
+
+ #combine them using zip 
+print(list(zip(rows, cols)))
+[(1, 2), (0, 1)]
+
+# initialize our centroid tracker and frame dimensions
+ct = CentroidTracker()
+(H, W) = (None, None)
+
+# load our serialized model from disk
+print("[INFO] loading model...")
+net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
+
+# initialize the video stream and allow the camera sensor to warmup
+print("[INFO] starting video stream...")
+vs = VideoStream(src=0).start()
+time.sleep(2.0)
