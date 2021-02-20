@@ -72,7 +72,9 @@ Once you download the project from github you have to open the pycharm
 - Specify whether you want the new project to be opened in a separate window or close the current project and reuse the existing one.
 - To run project Click on build button in tool window and chose the build option project on sub window.
 - Run the project by clicking run button shown in  top right widgets in pycharm. And continue project.
+## License
+This project is licensed under the Sargodha university License.
 ## Authors
 - Misbah Bashir
 - Uzma Ilyas
-                                                                  # THANK YOU
+ ## THANK YOU
