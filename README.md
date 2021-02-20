@@ -73,6 +73,6 @@ Once you download the project from github you have to open the pycharm
 - To run project Click on build button in tool window and chose the build option project on sub window.
 - Run the project by clicking run button shown in  top right widgets in pycharm. And continue project.
 ## Authors
-- Misbah Bashir:
-- Uzma Ilyas:
-                                                                  THANK YOU
+- Misbah Bashir
+- Uzma Ilyas
+                                                                  # THANK YOU
