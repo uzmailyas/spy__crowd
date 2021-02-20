@@ -1,4 +1,4 @@
-## Spy Crowd
+# Spy Crowd
 
 Spy Crowd is a desktop application that is design using machine leaning
 This Application counts the people in the crowd and give you the output in the form of total counts.
