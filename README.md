@@ -1,5 +1,3 @@
-# spy__crowd
-
 ## Spy Crowd
 
 Spy Crowd is a desktop application that is design using machine leaning
@@ -7,7 +5,7 @@ This Application counts the people in the crowd and give you the output in the f
 ## Language
 - Python 
 ## Technique 
-Neural networks(CNN)
+- Neural networks(CNN)
 ## Getting Started
 Our modules that we'll cover in this project is 
 - Object identification
@@ -18,13 +16,13 @@ In this code we are covering the module of object tracking that trace
 the people in the video and make a rectangle on it. 
 # Prerequisites
 ## Hardware Requirements
-system laptop pc etc
+- system like laptop pc etc.
 ## Software Requirements
-Python version 3.9.0
-## Library 
-OpenCV, numpy 
+- Python version 3.9.0
+## Libraries
+OpenCV, numpy, CV2 
 ## IDE
-pycharm 
+- pycharm 
 ## How to install Python
 - step 1: Select Version of Python to Install.
 - Step 2: Download Python Executable Installer.
@@ -47,8 +45,13 @@ pycharm
 - click on numpy.
 - click install package button.
 ## Scipy
-python setup.py install [--prefix=/some/custom/installation/prefix]
-If you provide a custom installation path (-prefix).
+- ctrl-alt-s.
+- click "project:projet name"
+- click project interperter.
+- double click pip.
+- search numpy from the top bar.
+- click on scipy.
+- click install package button.
 ## Cv2
 - Go to File>Settings in Pycharm IDE Window
 - Search Project Interpreter in search bar.
